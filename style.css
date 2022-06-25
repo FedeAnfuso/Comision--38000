@@ -107,7 +107,28 @@ p{
     margin-left: 392px;
 }
 
+img{
+    padding-left: 520px;
+    animation: movimiento 1s infinite 1s;
+}
 
+@keyframes movimiento {
+    0% {
+      tranform: translate(-200px, 0px)
+    }
+    25% {
+      transform: translate(-100px, 0px);
+    }
+    50% {
+      transform: translate(1px, 0px);
+    }
+    75% {
+      transform: translate(100px, 0px);
+    }
+    100% {
+      tranform: translate(200px, 0px)
+    }
+  }
 
 @media (min-width: 300px) and (max-width: 768px){
 
