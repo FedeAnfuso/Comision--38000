@@ -108,8 +108,10 @@ p{
 }
 
 img{
-    padding-left: 520px;
+    padding-left: 480px;
     animation: movimiento 1s infinite 1s;
+    height: 300px;
+    width: 300px;
 }
 
 @keyframes movimiento {
