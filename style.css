@@ -1,6 +1,6 @@
 body{
     background-image:url(media/Local1.jpg);
-    background-color: rgb(66, 179, 255);
+    background-color: white;
 }
 
 a:hover{
@@ -106,8 +106,8 @@ p{
     margin-left: 392px;
 }
 
-img{
-    padding-left: 480px;
+.animado{
+  padding-left: 480px;
     animation: movimiento 2s infinite 1s;
     height: 300px;
     width: 300px;
