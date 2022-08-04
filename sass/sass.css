@@ -1,0 +1,387 @@
+body {
+  background-image: url(../media/Local1.jpg);
+}
+body .header {
+  padding: 10px;
+  text-align: center;
+  background: rgb(66, 179, 255);
+  color: white;
+  font-size: 20px;
+}
+body .aboutus {
+  background-color: rgb(66, 179, 255);
+  width: 800px;
+  height: 390px;
+  margin: 100px auto;
+  border: 5px solid black;
+  text-align: center;
+}
+body .aboutus .nosotros {
+  font-size: 38px;
+}
+body .volver {
+  background-color: rgb(66, 179, 255);
+  width: 60px;
+  height: 30px;
+  border: 5px solid black;
+}
+body .instagram {
+  background-color: rgb(66, 179, 255);
+  margin-top: 20px;
+  text-align: center;
+}
+body .contenido {
+  background-color: rgb(66, 179, 255);
+  width: 600px;
+  height: 200px;
+  margin: 50px auto;
+  border: 5px solid black;
+  text-align: center;
+}
+body .resalto {
+  color: black;
+  border: 2px solid black;
+}
+
+.formas {
+  background-color: rgb(66, 179, 255);
+  width: 190px;
+  height: 50px;
+  margin: 50px auto;
+  border: 5px solid black;
+  text-align: center;
+}
+.formas .mover {
+  margin-top: 25px;
+}
+
+.locacion {
+  background-color: rgb(66, 179, 255);
+  width: 600px;
+  height: 100px;
+  margin: 50px auto;
+  border: 5px solid black;
+}
+.locacion .chico {
+  font-size: 18px;
+}
+
+.iframe {
+  position: relative;
+  margin-left: 392px;
+}
+
+.animado {
+  padding-left: 480px;
+  -webkit-animation: movimiento 2s infinite 1s;
+          animation: movimiento 2s infinite 1s;
+  height: 300px;
+  width: 300px;
+}
+@-webkit-keyframes movimiento {
+  0% {
+    transform: translate(-250px, 0px);
+  }
+  5% {
+    transform: translate(-225px, 0px);
+  }
+  10% {
+    transform: translate(-200px, 0px);
+  }
+  15% {
+    transform: translate(-175px, 0px);
+  }
+  20% {
+    transform: translate(-150px, 0px);
+  }
+  25% {
+    transform: translate(-125px, 0px);
+  }
+  30% {
+    transform: translate(-100px, 0px);
+  }
+  35% {
+    transform: translate(-75px, 0px);
+  }
+  40% {
+    transform: translate(-50px, 0px);
+  }
+  55% {
+    transform: translate(-25px, 0px);
+  }
+  50% {
+    transform: translate(0px, 0px);
+  }
+  55% {
+    transform: translate(25px, 0px);
+  }
+  60% {
+    transform: translate(50px, 0px);
+  }
+  65% {
+    transform: translate(75px, 0px);
+  }
+  70% {
+    transform: translate(100px, 0px);
+  }
+  75% {
+    transform: translate(125px, 0px);
+  }
+  80% {
+    transform: translate(150px, 0px);
+  }
+  85% {
+    transform: translate(175px, 0px);
+  }
+  90% {
+    transform: translate(200px, 0px);
+  }
+  95% {
+    transform: translate(225px, 0px);
+  }
+  100% {
+    transform: translate(250px, 0px);
+  }
+}
+@keyframes movimiento {
+  0% {
+    transform: translate(-250px, 0px);
+  }
+  5% {
+    transform: translate(-225px, 0px);
+  }
+  10% {
+    transform: translate(-200px, 0px);
+  }
+  15% {
+    transform: translate(-175px, 0px);
+  }
+  20% {
+    transform: translate(-150px, 0px);
+  }
+  25% {
+    transform: translate(-125px, 0px);
+  }
+  30% {
+    transform: translate(-100px, 0px);
+  }
+  35% {
+    transform: translate(-75px, 0px);
+  }
+  40% {
+    transform: translate(-50px, 0px);
+  }
+  55% {
+    transform: translate(-25px, 0px);
+  }
+  50% {
+    transform: translate(0px, 0px);
+  }
+  55% {
+    transform: translate(25px, 0px);
+  }
+  60% {
+    transform: translate(50px, 0px);
+  }
+  65% {
+    transform: translate(75px, 0px);
+  }
+  70% {
+    transform: translate(100px, 0px);
+  }
+  75% {
+    transform: translate(125px, 0px);
+  }
+  80% {
+    transform: translate(150px, 0px);
+  }
+  85% {
+    transform: translate(175px, 0px);
+  }
+  90% {
+    transform: translate(200px, 0px);
+  }
+  95% {
+    transform: translate(225px, 0px);
+  }
+  100% {
+    transform: translate(250px, 0px);
+  }
+}
+
+@media (min-width: 300px) and (max-width: 768px) {
+  .aboutus {
+    background-color: rgb(66, 179, 255);
+    width: 250px;
+    height: 330px;
+    margin: 100px auto;
+    border: 5px solid black;
+  }
+  .nosotros {
+    font-size: 20px;
+  }
+  .contenido {
+    background-color: rgb(66, 179, 255);
+    width: 300px;
+    height: 270px;
+    margin: 50px auto;
+    border: 5px solid black;
+  }
+  .chico {
+    font-size: 18px;
+  }
+  .locacion {
+    background-color: rgb(66, 179, 255);
+    width: 250px;
+    height: 200px;
+    margin: 50px auto;
+    border: 5px solid black;
+  }
+  .iframe {
+    position: relative;
+    margin-left: 50px;
+    width: 300px;
+    height: 300px;
+  }
+  .animado {
+    padding-left: 10px;
+    -webkit-animation: movimiento 2s infinite 1s;
+            animation: movimiento 2s infinite 1s;
+    height: 300px;
+    width: 300px;
+  }
+  @-webkit-keyframes movimiento {
+    0% {
+      transform: translate(-250px, 0px);
+    }
+    5% {
+      transform: translate(-225px, 0px);
+    }
+    10% {
+      transform: translate(-200px, 0px);
+    }
+    15% {
+      transform: translate(-175px, 0px);
+    }
+    20% {
+      transform: translate(-150px, 0px);
+    }
+    25% {
+      transform: translate(-125px, 0px);
+    }
+    30% {
+      transform: translate(-100px, 0px);
+    }
+    35% {
+      transform: translate(-75px, 0px);
+    }
+    40% {
+      transform: translate(-50px, 0px);
+    }
+    45% {
+      transform: translate(-25px, 0px);
+    }
+    50% {
+      transform: translate(0px, 0px);
+    }
+    55% {
+      transform: translate(25px, 0px);
+    }
+    60% {
+      transform: translate(50px, 0px);
+    }
+    65% {
+      transform: translate(75px, 0px);
+    }
+    70% {
+      transform: translate(100px, 0px);
+    }
+    75% {
+      transform: translate(125px, 0px);
+    }
+    80% {
+      transform: translate(150px, 0px);
+    }
+    85% {
+      transform: translate(175px, 0px);
+    }
+    90% {
+      transform: translate(200px, 0px);
+    }
+    95% {
+      transform: translate(225px, 0px);
+    }
+    100% {
+      transform: translate(250px, 0px);
+    }
+  }
+  @keyframes movimiento {
+    0% {
+      transform: translate(-250px, 0px);
+    }
+    5% {
+      transform: translate(-225px, 0px);
+    }
+    10% {
+      transform: translate(-200px, 0px);
+    }
+    15% {
+      transform: translate(-175px, 0px);
+    }
+    20% {
+      transform: translate(-150px, 0px);
+    }
+    25% {
+      transform: translate(-125px, 0px);
+    }
+    30% {
+      transform: translate(-100px, 0px);
+    }
+    35% {
+      transform: translate(-75px, 0px);
+    }
+    40% {
+      transform: translate(-50px, 0px);
+    }
+    45% {
+      transform: translate(-25px, 0px);
+    }
+    50% {
+      transform: translate(0px, 0px);
+    }
+    55% {
+      transform: translate(25px, 0px);
+    }
+    60% {
+      transform: translate(50px, 0px);
+    }
+    65% {
+      transform: translate(75px, 0px);
+    }
+    70% {
+      transform: translate(100px, 0px);
+    }
+    75% {
+      transform: translate(125px, 0px);
+    }
+    80% {
+      transform: translate(150px, 0px);
+    }
+    85% {
+      transform: translate(175px, 0px);
+    }
+    90% {
+      transform: translate(200px, 0px);
+    }
+    95% {
+      transform: translate(225px, 0px);
+    }
+    100% {
+      transform: translate(250px, 0px);
+    }
+  }
+  .reparto {
+    width: 200px;
+    height: 200px;
+  }
+}/*# sourceMappingURL=sass.css.map */
