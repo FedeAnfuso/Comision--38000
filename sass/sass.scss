@@ -140,44 +140,49 @@ body{
                 }
               }
         }
-        @media (min-width: 300px) and (max-width: 768px){
-
+@media (min-width: 300px) and (max-width: 768px){
+body{
           .aboutus{
               background-color: rgb(66, 179, 255);
-              width: 250px;
-              height: 330px;
-              margin: 100px auto;
+              width: 270px;
+              height: 360px;
+              margin: 40px auto;
               border: 5px solid black;
+              .nosotros{
+                font-size: 20px;
+            }
            }
           
-          .nosotros{
-              font-size: 20px;
-          }
+
           
           .contenido{
               background-color: rgb(66, 179, 255);
-              width: 300px;
-              height: 270px;
+              width: auto;
+              height: auto;
               margin: 50px auto;
               border: 5px solid black;
+              .resalto{
+                color: black;
+                border: 2px solid black;
+              }
           }
-          
-          .chico{
-              font-size: 18px;
-          }
-          
+                    
           .locacion{
               background-color: rgb(66, 179, 255);
               width: 250px;
               height: 200px;
               margin: 50px auto;
               border: 5px solid black;
+              .chico{
+                font-size: 18px;
+              }
+              
           }
-          .iframe{
-              position: relative;
-              margin-left: 50px;
+          iframe{
+              margin-top: 5px;
+              margin-left: 25px;
               width: 300px;
-              height: 300px;
+              height:300px;
           }
           
           .animado{
@@ -186,6 +191,10 @@ body{
               height: 300px;
               width: 300px;
           }
+
+          .volver{
+                display: none;
+            }
           
           @keyframes movimiento {
               0% {
@@ -258,7 +267,7 @@ body{
               height: 200px;
             }
             
-          
-          }
+          } 
+        }
     
 

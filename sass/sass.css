@@ -210,45 +210,52 @@ body .resalto {
 }
 
 @media (min-width: 300px) and (max-width: 768px) {
-  .aboutus {
+  body .aboutus {
     background-color: rgb(66, 179, 255);
-    width: 250px;
-    height: 330px;
-    margin: 100px auto;
+    width: 270px;
+    height: 360px;
+    margin: 40px auto;
     border: 5px solid black;
   }
-  .nosotros {
+  body .aboutus .nosotros {
     font-size: 20px;
   }
-  .contenido {
+  body .contenido {
     background-color: rgb(66, 179, 255);
-    width: 300px;
-    height: 270px;
+    width: auto;
+    height: auto;
     margin: 50px auto;
     border: 5px solid black;
   }
-  .chico {
-    font-size: 18px;
+  body .contenido .resalto {
+    color: black;
+    border: 2px solid black;
   }
-  .locacion {
+  body .locacion {
     background-color: rgb(66, 179, 255);
     width: 250px;
     height: 200px;
     margin: 50px auto;
     border: 5px solid black;
   }
-  .iframe {
-    position: relative;
-    margin-left: 50px;
+  body .locacion .chico {
+    font-size: 18px;
+  }
+  body iframe {
+    margin-top: 5px;
+    margin-left: 25px;
     width: 300px;
     height: 300px;
   }
-  .animado {
+  body .animado {
     padding-left: 10px;
     -webkit-animation: movimiento 2s infinite 1s;
             animation: movimiento 2s infinite 1s;
     height: 300px;
     width: 300px;
+  }
+  body .volver {
+    display: none;
   }
   @-webkit-keyframes movimiento {
     0% {
@@ -380,7 +387,7 @@ body .resalto {
       transform: translate(250px, 0px);
     }
   }
-  .reparto {
+  body .reparto {
     width: 200px;
     height: 200px;
   }
